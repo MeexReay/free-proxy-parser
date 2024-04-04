@@ -1,6 +1,10 @@
-# free-proxy-parser
-just free proxy parser
-<br><br>
-parses all exists free proxy and checks it<br>
-just parsed proxy saves as - check.txt<br>
-checked proxy saves as - proxies.txt<br>
+# Free Proxy Parser
+Just free proxy parser written on python
+
+## How to use
+### Parse socks5 only
+`python3 main.py --only-socks5`
+### Parse http only
+`python3 main.py --only-http`
+
+Proxies is saving to proxies.csv file
